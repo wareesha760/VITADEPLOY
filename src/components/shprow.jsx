@@ -19,7 +19,7 @@ const cardData = [
     title: "کرایہ مشینری",
     image: "/tractor.png",
     description: "-زرعی مشینری کا کرایہ پر لینا یا دینا اب آسان! ٹریکٹر، ہارویسٹر، اور دیگر آلات صرف ایک کلک کی دوری پر",
-    url : '/register',
+    url : '/tractors',
   },
   {
     title: "فصل کے مطابق مشورہ",
@@ -34,11 +34,13 @@ const cardData = [
     title: " کھاد کیلکولیٹر",
     image: "/calcu.jpeg",
     description: "-زمین کے رقبے، فصل کی قسم، اور مٹی کی ضرورت کے مطابق درست مقدار میں کھاد تجویز کریں",
+    url:"/fertilizer",
   },
    {
     title: "  ماہرِ زراعت سے مشورہ",
     image: "/expert.png",
     description: "-فصل، بیماری یا کھاد سے متعلق سوال ہے؟ ابھی کال یا میسج پر ماہرین سے رہنمائی حاصل کریں",
+    url:"/advisor",
   }
 ];
 

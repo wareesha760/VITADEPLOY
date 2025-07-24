@@ -12,7 +12,9 @@ function Shop({ title, image, description,url="" }) {
     setTilt({ x: y * -threshold, y: x * threshold });
   };
 
+
   return (
+    
     <div>
     <Link to={url}>
     <div 
@@ -23,6 +25,7 @@ function Shop({ title, image, description,url="" }) {
     transform: `perspective(1000px) rotateX(${tilt.x}deg) rotateY(${tilt.y}deg)`,
   }}
 >
+  
   {/* Image */}
   <img src={image} alt={title} className="mt-10 w-40 h-40 object-cover block mx-auto mt-4" />
 
