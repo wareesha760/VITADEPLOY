@@ -9,6 +9,7 @@ export default defineConfig({
         tailwindcss(),
 
   ],
+  base:process.env.VITA_BASE_PATH || "/"
   
     
 })
