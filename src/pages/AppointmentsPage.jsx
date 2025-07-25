@@ -3,7 +3,7 @@ import React from 'react';
 export default function AppointmentsPage({ appointments }) {
   return (
     <div className="p-30 text-center  min-h-screen">
-      <h1 className="text-2xl font-bold mb-6 text-black-700">آپ کی اپوائنٹمنٹس</h1>
+      <h1 className="text-2xl p-24 font-bold mb-6 text-black-700">آپ کی اپوائنٹمنٹس</h1>
       {appointments.length === 0 ? (
         <p>ابھی تک کوئی اپوائنٹمنٹ نہیں کی گئی۔</p>
       ) : (
